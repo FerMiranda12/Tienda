@@ -1,28 +1,135 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
     <head>
         <title>Tienda en Linea</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Paguina leccion 2"/>
+        <meta name="keywords" content="html5, css, web, fidelitas"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+      
+        
+        <!-- esta etiqueta indica al navegador que es un encabezado -->
+        <header id="encabezado">
+            
+            <h1>Tienda en Linea</h1>
+            <br/>
+            
+        </header>
         
         
-        <div style="color: red; text-align: center;">      //los div son bloques y los style son los estilos que siempre se ponen con : y ;
-            <h1 style="color: red; text-align: center;">Home</h1>     //los h1 son titulos
-            <p>Bienvenido a la paguina en linea</p>      //los p son parrafos
-        </div>
+        <!-- esta etiqueta indica al navegador que es un nav -->
+        <nav id="menu">
+            
+            <a href="ejemplo6.html">Atras</a>
+            <a href="index.html">Home</a>
+            <a href="ejemplo1.html">Adelante</a>
+            
+        </nav>
         
         
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
-        <p>Varius ultricies pellentesque rhoncus natoque pulvinar luctus sodales metus facilisi, eu quis integer habitant conubia nibh sapien placerat orci ridiculus, accumsan phasellus fames dui in tempor tempus fringilla. Sed primis mollis porttitor euismod feugiat sociosqu odio quam nibh, rutrum lobortis taciti luctus vel nisi conubia lacinia mauris massa, consequat libero aliquet posuere mi cras litora pellentesque. Maecenas blandit pellentesque habitasse curae euismod interdum felis molestie quam, suspendisse bibendum ullamcorper malesuada porttitor cras urna iaculis, platea semper montes rutrum dapibus a fames nisi.</p>
-        <p>Per eros accumsan egestas eu magna vitae nibh, non rhoncus aliquam pellentesque vel quisque tincidunt sapien, ad ut erat gravida ante facilisi. Cras mollis aliquet vel lectus morbi dictum habitant ornare, justo aenean curae ultricies phasellus tortor nibh, dignissim molestie sed etiam facilisi curabitur praesent. Varius cum nam pharetra conubia vulputate nascetur aptent auctor diam ut, metus nec habitant donec feugiat tempus odio mi lacus dictumst rhoncus, tempor ac condimentum egestas natoque sociis enim hac semper. Erat proin velit lacinia venenatis placerat aliquam faucibus dui duis ac, eros commodo nam tempus diam morbi fusce nibh himenaeos cras, torquent at vestibulum dictum inceptos ultricies vulputate integer sagittis.</p>
+        <aside id="barraLateral">
+            
+            <h2>Productos mas vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
         
-        <br/>     \\esto es para un salto de linea 
+        </aside>
         
-        <p>Ultima linea</p>
-    
-    
+        
+        <section id="contenido">
+
+            <h2>Articulos Principales</h2>
+
+            <article>
+                <header>Asus Vivobook</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
+
+
+                <figure>
+
+                    <img src="images/" alt="Asus Vivobook" width="200"/>
+                    <figcaption>Imagen con fines ilustrativos</figcaption>
+
+                </figure>
+
+            </article>
+
+        </section>
+           
+        
+          <article>
+                <header>Alienware ATD 900</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
+
+
+                <figure>
+
+                    <img src="images/" alt="Alienware ATD 900k" width="200"/>
+                    <figcaption>Mas vendido</figcaption>
+
+                </figure>
+
+            </article>
+
+      
+          <article>
+                <header>Impresora 3D</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur adipiscing elit</cite> cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
+
+
+                <figure>
+
+                    <img src="images/" alt="Impresoea 3D" width="200"/>
+                    <figcaption>Mas economico</figcaption>
+
+                </figure>
+
+            </article>
+        <br/>
+        <br/>
+        <article>
+            <h2>Lineas de productos</h2>
+            <table border="0">
+                <thead id="encabezadoTabla">
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Descripcion</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaResumen">
+                    <tr>
+                        <td>1</td>
+                        <td>Teclados</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Monitores</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Portatiles</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Pefirericos</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Baterias</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Headsets</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        
+        
+        <footer id="piePaguina">
+            Derechos reservados &COPY; 2023 <address class="lineaDireccion">San Pablo, Heredia</address> <address class="lineaDireccion">Tel: 8888 7777</address> 
+        </footer>
     </body>
 </html>
