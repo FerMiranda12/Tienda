@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tienda en Linea</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Paguina leccion 2"/>
+        <meta name="keywords" content="html5, css, web, fidelitas"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+
+        <!-- esta etiqueta indica al navegador que es un encabezado -->
+        <header id="encabezado">
+
+            <h1>Tienda en Linea</h1>
+            <br/>
+
+        </header>
+
+
+        <!-- esta etiqueta indica al navegador que es un nav -->
+        <nav id="menu">
+
+            <a href="ejemplo6.html">Atras</a>
+            <a href="index.html">Home</a>
+            <a href="ejemplo1.html">Adelante</a>
+
+        </nav>
+
+        <aside id="barraLateral">
+
+            <h2>Productos mas vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cras vestibulum in, risus tortor conubia odio aenean velit ultrices hendrerit ornare, fames cum cursus eros porta at sed tempor a. Elementum natoque molestie iaculis massa morbi faucibus leo nascetur, eleifend ut hendrerit tellus facilisis mollis mauris, torquent praesent dui augue convallis mus dapibus. Consequat primis condimentum maecenas auctor euismod, phasellus luctus cursus pulvinar lobortis ac, magna nostra morbi blandit.</p>
+
+        </aside>
+
+        <section id="contenido">
+            <header>
+
+                <h2>Ejemplo de formularios</h2>
+
+            </header>
+
+            <form action="#">                
+                <label>button </label><input type="button" value="Confirmar" id="button" /><br/>                
+                <label>checkbox </label> <input type="checkbox" id="checkbox" checked />Terminos y condiciones<br/>                
+                <label>color </label><input type="color" id="color" value="#ffff00" /><br/>                
+                <label>text </label><input type="text" id="text" placeholder="ejemplo de place holder" size="30"><br/>                
+                <label>textarea </label><textarea id="Ejemplo" rows="5" cols="30"></textarea><br/>                
+                <label>date </label><input type="date" name="date" min="2021-01-01" max="2023-12-31"><br/>                
+                <label>datetime-local </label><input type="datetime-local" name="datetime-local"><br/>                
+                <label>time </label><input type="time" name="time"><br/>
+                <label>email </label><input type="email" name="email" placeholder="a-z@a-z.xxx"><br/>                
+                <label>file </label><input type="file" name="file" accept="image/png,image/jpeg"><br/>                
+                <label>hidden </label><input type="hidden" id="hidden" value="sdfdsf-sdfdsf-fjghj565-65245"><br/>                
+                <label>search </label><input type="search" name="search" placeholder="criterio de busqueda"><br/>                
+                <label>tel </label><input type="tel" name="tel" placeholder=""><br/>                
+                <label>url </label><input type="url" name="url" placeholder=""><br/>                
+                <label>week </label><input type="week" name="week"><br/>                
+                <label>month </label><input type="month" name="month"><br/>
+                <label>number </label><input type="number" name="number" value="50" min="10" max="60"><br/>                
+                <label>password </label><input type="password" name="password"><br/>                
+                <label>radio </label>Mañana<input type="radio" name="horario" value="1"><br/>                
+                <label>radio </label>Tarde<input type="radio" name="horario" value="2"><br/>                
+                <label>radio </label>Noche<input type="radio" name="horario" value="3"><br/>                
+                <input type="range" value="24" min="1" max="100"                       
+                       oninput="this.nextElementSibling.value = this.value">
+                <output>24</output><br/>                
+                <label>reset </label><input type="reset" name="reset" value="Limpiar"><br/>                
+                <label>Submit </label><input type="submit" value="Submit"><br/>            
+            </form>
+            
+            
+        </section>
+        <footer id="piePaguina">
+            Derechos reservados &COPY; 2023 <address class="lineaDireccion">San Pablo, Heredia</address> <address class="lineaDireccion">Tel: 8888 7777</address> 
+        </footer>
+    </body>
+</html>
